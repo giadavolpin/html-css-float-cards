@@ -3,26 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
-header main{
+main{
     text-align: center;
 }
 header{
     color: #E53170;
     padding: 30px;
+    text-align: center;
 }
 .testo{
     background-color: rgb(5, 5, 39);
     color: white;
-    padding: 10px;
-    margin: 20px;
+    padding-top: 20px;
     width: calc(100% / 3);
-}
-.img{
-    width: 5px;
     float: left;
-    padding: 10px;
+}
+img{
+    width: 90px;
+    float: left;
+    padding-top: 20px;
 }
 .container {
     margin: 0 auto;
     width: 70%;
   }
+h4{
+    color:rgb(17, 171, 248);
+}
+.clearfix{
+    clear: both;
+    content: "";
+    display: table;
+}
