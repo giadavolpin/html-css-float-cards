@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+header main{
+    width: 75%;
+    text-align: center;
+}
+header{
+    color: #E53170;
+    padding: 30px;
+}
+.img{
+    width: 5px;
+    background-color: rgb(5, 5, 39);
+    float: left;
+    color: white;
+}
+.container {
+    margin: 0 auto;
+    width: 70%;
+  }
