@@ -11,17 +11,18 @@ header{
     padding: 30px;
     text-align: center;
 }
-.testo{
+.card{
     background-color: rgb(5, 5, 39);
     color: white;
-    padding-top: 20px;
     width: calc(100% / 3);
     float: left;
+   /*  line-height: 50px; */
+    
 }
 img{
-    width: 90px;
-    float: left;
-    padding-top: 20px;
+    width: 150px;
+   float: left;
+    
 }
 .container {
     margin: 0 auto;
@@ -30,8 +31,11 @@ img{
 h4{
     color:rgb(17, 171, 248);
 }
-.clearfix{
+/* .clearfix{
     clear: both;
     content: "";
     display: table;
+} */
+p{
+    margin-bottom: 40px;
 }
