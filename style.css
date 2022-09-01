@@ -10,11 +10,17 @@ header{
     color: #E53170;
     padding: 30px;
 }
+.testo{
+    background-color: rgb(5, 5, 39);
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    width: calc(100% / 3);
+}
 .img{
     width: 5px;
-    background-color: rgb(5, 5, 39);
     float: left;
-    color: white;
+    padding: 10px;
 }
 .container {
     margin: 0 auto;
