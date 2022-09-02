@@ -15,19 +15,22 @@ header{
 .card{
     background-color: rgb(5, 5, 39);
     color: white;
-    width: calc((100% -30px) / 3);
+    width: calc((100% - 30px) / 3);
     float: left;
     margin-bottom: 40px;
     margin-left: 10px;  
+    min-width: 300px;
+    max-height: ;
 }
 img{
-    width: 150px;
+   width: 150px;
    float: left;
-    
 }
+
 .container {
     margin: 0 auto;
     width: 70%;
+    max-width: 1170px;
   }
 h4{
     color:rgb(17, 171, 248);
